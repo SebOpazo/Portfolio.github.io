@@ -1,0 +1,194 @@
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: auto; }
+  .nav__container h1 {
+    font-size: 2.3rem;
+    font-style: italic; }
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 1rem;
+  list-style: none; }
+  .nav__list a {
+    text-decoration: none; }
+
+.presentation__container {
+  display: flex;
+  align-items: center;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem; }
+
+.presentation__text {
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2.5rem; }
+  .presentation__text h1 {
+    font-size: 2rem;
+    padding: 1rem; }
+  .presentation__text p {
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-style: italic; }
+
+.presentation__list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding-top: 2rem; }
+  .presentation__list a {
+    text-decoration: none; }
+
+.presentation__img {
+  margin-right: 3rem;
+  padding: 2rem;
+  width: 300px; }
+
+.aboutMe__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 4rem; }
+  .aboutMe__container h1 {
+    font-size: 2.6rem;
+    padding: 2rem; }
+  .aboutMe__container p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem; }
+
+.skills__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem; }
+  .skills__container h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem; }
+
+.skills__card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.skills__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: .2rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: .3rem .2rem; }
+  .skills__card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0);
+    transform: translateY(-5px); }
+  .skills__card img {
+    width: 155px; }
+  .skills__card h2 {
+    margin: 3px;
+    font-size: 2rem;
+    padding: .2rem; }
+
+.hobbies__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 4rem; }
+  .hobbies__container h1 {
+    font-size: 3rem;
+    padding: 2rem; }
+  .hobbies__container p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    font-style: italic; }
+
+.proyect__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem; }
+  .proyect__container h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem; }
+
+.proyect__card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.proyect__card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: .2rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: .3rem .2rem; }
+  .proyect__card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0);
+    transform: translateY(-5px); }
+  .proyect__card h2 {
+    margin: 3px;
+    font-size: 2rem;
+    padding: .2rem; }
+  .proyect__card p {
+    padding: .5rem; }
+  .proyect__card a {
+    padding: 1rem; }
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem; }
+  .contact__container h1 {
+    font-size: 3rem;
+    text-align: center; }
+
+.contact__list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2.5rem; }
+  .contact__list-container img {
+    padding: 1.5rem;
+    width: 350px; }
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem; }
+  .contact__list input {
+    margin: .5rem;
+    padding: 1rem;
+    width: 300px; }
+  .contact__list textarea {
+    margin: .5rem;
+    padding: 1rem;
+    width: 300px;
+    resize: none; }
+  .contact__list button {
+    margin: .5rem;
+    padding: 1rem;
+    width: 50%; }
+
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E5E7E6;
+  font-style: #141301; }

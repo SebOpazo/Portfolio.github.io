@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <title>Sebastian Opazo Portafolio</title>
+</head>
+<header>
+    <nav class="nav__container">
+        <h1>Sebastian Opazo</h1>
+        <ul class="nav__list">
+            <li><a href="#sobremi">Sobre mi</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#">Formación</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <section class="presentation__container">
+        <div class="presentation__text">
+            <h1>Hola, Soy Sebastian Opazo, desarrollador web Front-End y hago páginas web</h1>
+            <p>Formado en Coderhouse como desarrollador web y de forma autodidacta actualmente estoy participando del
+                proyecto Oracle ONE en Alura Latam.</p>
+            <ul class="presentation__list">
+                <li><a href="https://github.com/SebOpazo">Github</a></li>
+                <li><a href="https://www.instagram.com/sbstn.pz/">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/sebastian-opazo-delgado-11a53a12a/">LinkedIn</a></li>
+                <li><a href="">Curriculum</a></li>
+            </ul>
+        </div>
+        <img class="presentation__img" src="/img/mi-cara-portada.jpg" alt="fotoPresentacion">
+    </section>
+
+    <section class="aboutMe__container">
+        <h1 id="sobremi">Sobre Mí</h1>
+        <p>Soy Chileno y tengo 26 años. Soy desarrollador web egresado de la academia Coderhouse, actualmente estudiando
+            en el proyecto Oracle ONE en Alura Latam.
+            Me apasiona aprender y conocer constantemente sobre nuevas tecnologías, adquirir
+            las habilidades necesarias para llegar al público adecuado, desarrollar y diseñar proyectos de lo mejor para
+            entregar una satisfacción plena a la gente.
+            Me motiva entregar mis conocimientos, habilidades y dar siempre el 100% de mí en cada proyecto, dispuesto a
+            aprender en todo momento de mi entorno, siempre con el ánimo de colaborar y generar equipos de trabajo
+            eficientes.
+        </p>
+    </section>
+    <section class="skills__container">
+        <h1 id="skills">Skills</h1>
+        <div class="skills__card-container">
+            <div class="skills__card">
+                <img src="/img/logos/html_logo.svg" alt="html_logo">
+                <h2>Html</h2>
+            </div>
+            <div class="skills__card">
+                <img src="/img/logos/css_logo.svg" alt="css_logo">
+                <h2>Css</h2>
+            </div>
+            <div class="skills__card">
+                <img src="/img/logos/js_logo.svg" alt="js_logo">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="skills__card">
+                <img  class="git" src="/img/logos/github-mark.svg" alt="github-mark">
+                <h2>Github</h2>
+            </div>
+            <div class="skills__card">
+                <img src="/img/logos/sass_logo.svg" alt="sass_logo">
+                <h2>Sass</h2>
+            </div>
+        </div>
+    </section>
+    <section class="hobbies__container">
+        <h1 id="hobbies">Hobbies</h1>
+        <p>"Soy un aficionado a los libros, me gusta mucho hacer deportes, como el fútbol y el ciclismo, pero una de mis
+            grandes pasiones es la música."</p>
+    </section>
+    <section class="proyect__container">
+        <h1 id="proyectos">Proyectos</h1>
+        <div class="proyect__card-container">
+            <div class="proyect__card">
+                <h2>Encriptador</h2>
+                <p>Encriptador de texto hecho con HTML, CSS y JavaScript</p>
+                <a href="https://github.com/SebOpazo/Challenge-Oracle-One-EDT">Github</a>
+                <a href="">Prueba aquí</a>
+            </div>
+            <div class="proyect__card">
+                <h2>Calculadora</h2>
+                <p>Una simple calculadora hecha con JavaScript</p>
+                <a href="https://github.com/SebOpazo/Calculadora">Github</a>
+                <a href="">Prueba Aquí</a>
+            </div>
+            <div class="proyect__card">
+                <h2>Portafolio artista</h2>
+                <p>Página estática de servicios musciales hecha solo con HTML, CSS y SASS</p>
+                <a href="https://github.com/SebOpazo/yamalEstudios">Github</a>
+                <a href="">Prueba Aquí</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact__container">
+        <h1 id="contacto">Contacto</h1>
+        <div class="contact__list-container">
+        <img src="/img/email-svg.svg" alt="email-svg">
+        <form id="form"action="contact" class="contact__list">
+            <input type="text" name="name" placeholder="Nombre">
+            <input type="email" name="email" placeholder="email">
+            <textarea name="mensaje" id="mensaje" cols="15" rows="15" placeholder="Escriba su consulta aquí"></textarea>
+            <button type="submit" >Enviar</button>
+        </form>
+        <a href="mailto:xopazoo@gmail.com" id="xopamail"></a>
+        </div>
+    </section>
+
+</body>
+<script src="/js/formulario.js"></script>
+
+</html>

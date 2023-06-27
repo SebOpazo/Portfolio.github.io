@@ -1,0 +1,89 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E7E6;
+    font-style: #141301;
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav__container h1{
+    font-size: 2.3rem;
+    font-style: italic;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav__list a{
+    text-decoration: none;
+}
+
+.presentation__container{
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.presentation__text{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+}
+
+.presentation__text h1{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.presentation__text p{
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.presentation__list{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    padding-top: 2rem;
+}
+.presentation__list a{
+    text-decoration: none;
+}
+.presentation__img{
+    padding: 2rem;
+    width: 300px;
+}
+
+.aboutMe__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4rem;
+    
+}
+
+.aboutMe__container h1{
+    font-size: 2.6rem;
+    padding: 2rem;
+}
+
+.aboutMe__container p{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+}

@@ -1,0 +1,45 @@
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+.contact__list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2.5rem;
+
+    img{
+        padding: 1.5rem;
+        width: 350px;
+    }
+}
+
+.contact__list{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    input{
+        margin: .5rem;
+        padding: 1rem;
+        width: 300px;
+    }
+    textarea{
+        margin: .5rem;
+        padding: 1rem;
+        width: 300px;
+        resize: none;
+
+    }
+    button{
+        margin: .5rem;
+        padding: 1rem;
+        width: 50%;
+    }
+}

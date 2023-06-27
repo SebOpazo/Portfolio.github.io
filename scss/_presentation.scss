@@ -1,0 +1,41 @@
+.presentation__container{
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.presentation__text{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+    h1{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    p{
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-style: italic;
+    }
+}
+
+
+.presentation__list{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    padding-top: 2rem;
+    a{
+        text-decoration: none;
+    }
+}
+
+.presentation__img{
+    margin-right: 3rem;
+    padding: 2rem;
+    width: 300px;
+}
